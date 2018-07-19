@@ -1,0 +1,72 @@
+.div-hiddenbutton {
+   position:relative;
+   
+}
+
+.hidden {
+/*    display: none;*/
+    position:absolute;
+    z-index:99;
+}
+
+.hidden-button-location{
+    top:5px;
+    left:5px;
+}
+.hidden-a-location{
+    top:5px;
+    left:55px;
+}
+
+/*.div-hiddenbutton:hover .hidden{
+    display: block;
+}*/
+
+video.loading{
+  background: black url(/static/global/flatform/img/svg/loading.svg) center center no-repeat;
+}
+
+img.loading{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 30px;
+}
+
+.videoWrapper {
+        padding-left:25%; 
+        width:75%;
+}
+.img-photo-ck {
+  position: relative;
+  width:75%;
+  padding-left: 25%;
+  height: auto;
+  text-align: center;
+}
+
+.info-thumb-note-2-ck {
+  z-index: 99;
+  position: absolute;
+  bottom: 5px;
+  width: 50%;
+  left: 25%;
+  right: 25%;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: #007477;
+  padding: 2px 8px;
+  border-radius: 2px;
+  font-size: 12px;
+  width: 237px;
+}
+
+body, html {
+    background:white !important;
+    height: auto;
+    min-height: 330px;
+    padding: 10px;
+}
+
