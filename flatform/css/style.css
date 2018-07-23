@@ -363,6 +363,9 @@ a:active {
 
 .ava-user img {
   border: 4px solid #fff;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
 }
 
 .top-menu {
@@ -2198,6 +2201,8 @@ table.dataTable.no-footer {
   height: 30px;
   margin-right: 10px;
   border-radius: 100px;
+  width: 30px;
+  object-fit: cover;
 }
 
 .select-channel .dropdown-menu {
@@ -2220,6 +2225,8 @@ table.dataTable.no-footer {
 .box-user img {
   height: 70px;
   border-radius: 100px;
+  width: 70px;
+  object-fit: cover;
 }
 
 .user-name {
