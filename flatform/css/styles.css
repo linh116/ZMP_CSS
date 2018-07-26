@@ -12,6 +12,7 @@
 
 }
 
+
 [data-icon]:before {
   font-family: "media-platform" !important;
   content: attr(data-icon);
@@ -160,4 +161,7 @@
 }
 .mf-vallet:before {
   content: "\4f";
+}
+.mf-schedule:before {
+  content: "\50";
 }

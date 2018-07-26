@@ -281,8 +281,8 @@ a:active {
 .one-topic:hover .edit-bar {
   display: inline;
   position: absolute;
-  bottom: 15px;
-  right: 0px;
+  bottom: 11px;
+  right: 10px;
 }
 
 .pagi-nav .pagination {
@@ -407,14 +407,18 @@ a:active {
 
 .edit-bar .btn-edit-abr {
   color: #007477;
-  border: 1px solid #007477;
-  padding: 5px 8px;
+  border: 0px;
+  background-color: transparent;
+  font-size: 12px;
+  padding: 5px;
 }
 
 .edit-bar .btn-edit-abr:hover {
   color: #007477;
-  background: #fff;
-  border: 1px solid #007477;
+  border: 0px;
+  background-color: #e6e6e6;
+  padding: 5px;
+
 }
 
 
@@ -2474,3 +2478,7 @@ label span {
   margin-bottom: 10px;
   color: #828282
 }
+
+.btn-outline-warning {float: left; color: #007477; padding: 5px;}
+
+.btn-outline-warning:hover {background-color: #e6e6e6; color: #007477}
