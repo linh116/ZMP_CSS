@@ -122,7 +122,7 @@ $('.opensbottom').css({
 });
 
 $(function () {
-  $('.mf-info-circled').tooltip()
+  $('[data-toggle="tooltip"]').tooltip();
 })
 
 
