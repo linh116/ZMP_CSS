@@ -2216,7 +2216,7 @@ table.dataTable.no-footer {
 .box-user {
   padding: 10px 15px !important;
   border: 1px solid #E0E0E0;
-  width: 357px;
+  width: 366px;
   margin: 15px 5px;
   border-radius: 4px;
   margin-bottom: 0px;
@@ -2482,3 +2482,5 @@ label span {
 .btn-outline-warning {float: left; color: #007477; padding: 5px;}
 
 .btn-outline-warning:hover {background-color: #e6e6e6; color: #007477}
+
+.bootstrap-tagsinput, input{ width: 400px !important;}
