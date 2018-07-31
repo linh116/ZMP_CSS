@@ -95,7 +95,24 @@ $(function () {
 
 
 });
+$('#daterange-schedule').daterangepicker({
 
+  timePicker: true,
+
+  "singleDatePicker": true,
+
+  "applyClass": "btn-submit",
+
+  "cancelClass": "btn-outline",
+
+  locale: {
+
+    format: 'HH:mm A - DD/MM/YYYY'
+
+  }
+
+});
+$('#daterange-schedule').data('daterangepicker').setStartDate(new Date());
 
 
 
