@@ -22,8 +22,12 @@
     display: block;
 }*/
 
-video.loading{
+/*video.loading{
   background: black url(/static/global/flatform/img/svg/loading.svg) center center no-repeat;
+}*/
+video[poster]{
+    height: 214px;
+    object-fit: scale-down;
 }
 
 img.loading{
