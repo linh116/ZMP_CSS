@@ -95,7 +95,55 @@ $(function () {
 
 
 });
+let currentDateTime = new Date();
+$('#daterange-schedule').daterangepicker({
+  "timePicker": true,
+  "timePicker24Hour": true,
+  "minDate": currentDateTime,
+  "maxDate": new Date(currentDateTime.getFullYear(), currentDateTime.getMonth() + 6, currentDateTime.getDay(), currentDateTime.getHours(), currentDateTime.getMinutes(), currentDateTime.getSeconds(), currentDateTime.getMilliseconds()),
+  "startDate": new Date(currentDateTime.getTime()+ 900000),
+  "singleDatePicker": true,
+  "applyClass": "btn-submit",
+  "cancelClass": "btn-outline",
+  locale: {
+    format: 'HH:mm - DD/MM/YYYY'
+  }
 
+});
+
+function setDateRangeSchedule(publishTime, minTime){
+  let current = new Date();
+  let defaultTime = new Date(current.getTime() + 900000);
+  if(publishTime){
+    defaultTime = new Date(publishTime);
+  }
+  
+  let minDate = new Date(current.getTime() + 600000);
+  if(minTime){
+      minDate = new Date(minTime);
+  }
+  $('#daterange-schedule').daterangepicker({
+
+    "timePicker": true,
+    "timePicker24Hour": true,
+    "minDate": minDate,
+    "maxDate": new Date(current.getFullYear(), current.getMonth() + 6, current.getDay(), current.getHours(), current.getMinutes(), current.getSeconds(), current.getMilliseconds()),
+    "startDate": defaultTime,
+    "singleDatePicker": true,
+    "applyClass": "btn-submit",
+    "cancelClass": "btn-outline",
+    locale: {
+      format: 'HH:mm - DD/MM/YYYY'
+    }
+
+  });
+}
+function getTimeFromDaterangeSchedule(){
+  let str = $('#daterange-schedule').data('daterangepicker').startDate._d;
+  let date = new Date(str);
+  let publishTime = date.getTime();
+  $('#publishDTM').val(publishTime);
+}
 
 
 
@@ -122,7 +170,7 @@ $('.opensbottom').css({
 });
 
 $(function () {
-  $('.mf-info-circled').tooltip()
+  $('[data-toggle="tooltip"]').tooltip();
 })
 
 
