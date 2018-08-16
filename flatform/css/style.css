@@ -2631,3 +2631,10 @@ label span {
   color: #eb5757;
   font-weight: 700;
 }
+
+.no-content {text-align: center;
+min-height: 285px; padding-top: 100px;}
+
+.bx-news-content .btn-submit {
+  margin-top: 20px;
+}
