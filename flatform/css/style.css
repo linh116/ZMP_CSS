@@ -1713,12 +1713,13 @@ textarea {
 .table-source .tb-source {
   width: 120px;
 }
+
 .table-activity .tb-source,
-.table-activity .tb-activity{
+.table-activity .tb-activity {
   min-width: 100px;
 }
 
-.table-activity .tb-time{
+.table-activity .tb-time {
   min-width: 130px;
 }
 
@@ -2479,6 +2480,154 @@ label span {
   color: #828282
 }
 
-.btn-outline-warning {float: left; color: #007477; padding: 5px;}
+.btn-outline-warning {
+  float: left;
+  color: #007477;
+  padding: 5px;
+}
 
-.btn-outline-warning:hover {background-color: #e6e6e6; color: #007477}
+.btn-outline-warning:hover {
+  background-color: #e6e6e6;
+  color: #007477
+}
+
+
+.info-dashboard .list-thongke {
+  display: block;
+  padding: 5px 15px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+.info-dashboard .list-thongke li:last-child {
+  border-top: 1px solid #dadada;
+}
+
+.info-dashboard .list-thongke li {
+  margin: 0px;
+  padding: 50px 20px;
+  border-right: 0px;
+}
+
+.list-thongke .title-view {
+  text-align: center;
+  font-size: 13px;
+  padding: 9px 0;
+  background-color: #dadada;
+  margin-top: 10px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 600
+}
+
+.bx-news-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.title-bx {
+  display: block;
+  font-size: 13px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border-bottom: 1px solid #dadada;
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+}
+
+
+.ul-activity li {
+  display: block;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.ul-content li{
+  display: block;
+  float: left;
+  margin-bottom: 5px;
+}
+
+.ul-content img {
+  width: 80px;
+    float: left;
+    height: 80px;
+    object-fit: cover;
+}
+
+.ul-content .info-content {
+  float: left;
+  margin-left: 15px;
+  font-size: 14px;
+  max-width: 273px;
+}
+
+.ul-content .info-content a {
+  color: #444;
+
+}
+
+.ul-content a {
+
+      position: relative;
+    display: inline-block;
+    float: left;
+
+}
+
+.ul-content a .info-thumb {font-size: 12px;}
+
+.ul-content .info-content span {
+  display: block;
+  font-size: 13px;
+  color: #999;
+  margin-top: 5px;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.btn-view-all {
+  color: #007477;
+  text-align: center;
+}
+
+.ul-activity img {
+  border-radius: 100px;
+  max-width: 30px;
+  float: left;
+}
+
+.ul-activity .info-content {
+  float: left;
+    margin-left: 10px;
+    font-size: 14px;
+    max-width: 328px;
+    font-weight: 600;
+}
+
+.ul-activity .time-activity {
+  font-weight: 400;
+  font-size: 13px;
+  margin-left: 5px;
+      color: #999;
+}
+
+.ul-activity .text-activity {
+  display: block;
+  font-weight: 400;
+}
+
+.text-count {
+  float: left;
+    margin-top: 27px;
+    font-size: 12px;
+}
+.text-count span {
+  color: #eb5757;
+  font-weight: 700;
+}
