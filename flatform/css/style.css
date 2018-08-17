@@ -354,11 +354,11 @@ a:active {
 }
 
 .ava-user span {
-  border: 4px solid #007477;
-  width: 98px;
+  width: 90px;
   border-radius: 100px;
   display: block;
   margin: 0 auto;
+  box-shadow: 0 1px 5px #cccccc;
 }
 
 .ava-user img {
@@ -2552,12 +2552,14 @@ label span {
   display: block;
   float: left;
   margin-bottom: 15px;
+  min-width: 368px;
 }
 
 .ul-content li{
   display: block;
   float: left;
   margin-bottom: 5px;
+  min-width: 368px;
 }
 
 .ul-content img {
@@ -2568,6 +2570,7 @@ label span {
 }
 
 .ul-content .info-content {
+  word-break: break-all;
   float: left;
   margin-left: 15px;
   font-size: 14px;
@@ -2575,6 +2578,7 @@ label span {
 }
 
 .ul-content .info-content a {
+  width: 273px;
   color: #444;
 
 }
@@ -2614,6 +2618,7 @@ label span {
 }
 
 .ul-activity .info-content {
+  word-break: break-all;
   float: left;
     margin-left: 10px;
     font-size: 14px;
@@ -2629,6 +2634,7 @@ label span {
 }
 
 .ul-activity .text-activity {
+  word-break: break-all;
   display: block;
   font-weight: 400;
 }
