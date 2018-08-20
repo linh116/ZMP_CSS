@@ -2634,7 +2634,7 @@ label span {
 }
 
 .ul-activity .text-activity {
-  word-break: break-all;
+  word-break: break-word;
   display: block;
   font-weight: 400;
 }
