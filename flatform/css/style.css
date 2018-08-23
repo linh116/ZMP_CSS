@@ -2551,22 +2551,23 @@ label span {
 .ul-activity li {
   display: block;
   float: left;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   min-width: 368px;
 }
 
 .ul-content li{
   display: block;
   float: left;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
   min-width: 368px;
 }
 
 .ul-content img {
-  width: 80px;
+  width: 70px;
     float: left;
-    height: 80px;
+    height: 70px;
     object-fit: cover;
+  border-radius: 4px;
 }
 
 .ul-content .info-content {
@@ -2624,6 +2625,7 @@ label span {
     font-size: 14px;
     max-width: 328px;
     font-weight: 600;
+    height: 69px;
 }
 
 .ul-activity .time-activity {
@@ -2637,6 +2639,7 @@ label span {
   word-break: break-word;
   display: block;
   font-weight: 400;
+  max-height: 38px;
 }
 
 .text-count {
@@ -2654,4 +2657,39 @@ min-height: 285px; padding-top: 100px;}
 
 .bx-news-content .btn-submit {
   margin-top: 20px;
+}
+
+.tt-suggestion.tt-cursor {
+  color: #fff;
+  background-color: #0097cf;
+}
+
+.link-bottom{
+  float: bottom;
+}
+
+/* mixin for multiline */
+.block-with-text {
+  overflow: hidden;
+  position: relative;
+  line-height: 1.4em;
+  max-height: 6em;
+  text-align: justify;
+  margin-right: -1em;
+  padding-right: 1em;
+}
+.block-with-text:before {
+  content: '...';
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+.block-with-text:after {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 1em;
+  height: 1em;
+  margin-top: 0.2em;
+  background: white;
 }

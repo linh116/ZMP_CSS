@@ -20,12 +20,6 @@ $(document).ready(function () {
   });
 });
 
-$(document).ready(function () {
-  $('.bootstrap-tagsinput input').blur(function () {
-    jQuery(this).attr('placeholder', '')
-  });
-});
-
 
 $(function () {
   var handle = $("#custom-handle");
