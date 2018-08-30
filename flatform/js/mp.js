@@ -154,6 +154,8 @@ $('#daterange-2').daterangepicker({
   "opens": "left",
   "applyClass": "btn-submit",
   "cancelClass": "btn-outline",
+  "minDate": new Date( new Date().getTime() - 30 * 24 * 60 * 60 * 1000),
+  "maxDate": new Date(),
   "locale": {
         "format": "DD/MM/YYYY",
     },
